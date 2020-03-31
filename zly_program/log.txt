@@ -1,0 +1,18 @@
+gcc -Wall -pedantic -o przetworz przetworz.c
+/**
+blad w funkcji ZamienNaPodkreslenie,
+char c[] = "string";
+char* c = "string";
+w obu przypadkach to jest tzw "string literal", 
+ale w drugim jest rozumiany jako anonimowy ciag znakow,
+zapisany w pamieci tylko do odczytu, stad proba jakiegokolwiek
+przypisania, powoduje segmentation fault
+**/
+g++ -Wall -pedantic -o przetworz_cpp przetworz.c
+/**
+nie daje sie wykonac, bo z podanymi flagami, 
+kompilator nie zgadza sie na uzycie char* c jako
+"string literal"
+**/
+
+

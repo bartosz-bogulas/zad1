@@ -1,0 +1,3 @@
+gcc -Wall -pedantic -lm -o rownanie_c rownanie.c
+g++ -Wall -pedantic -o rownanie_cpp rownanie.c
+oba w porzadku

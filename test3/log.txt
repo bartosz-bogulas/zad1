@@ -1,0 +1,7 @@
+gcc -Wall -pedantic -o program_c program.c modul.c
+g++ -Wall -pedantic -o program_cpp program.c modul.cpp
+/**
+blad naprawiony, c++ rozumie const przy externie jako static, dlatego
+jest blad linkowania, bo static oznacza, miedzy innymi, ze zmianna
+jest tylko dla pliku, w ktorym sie znajduje
+**/

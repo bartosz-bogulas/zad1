@@ -1,0 +1,2 @@
+gcc -Wall -pedantic -o konwerter_c konwerter.c
+g++ -Wall -pedantic -o konwerter_cpp konwerter.c

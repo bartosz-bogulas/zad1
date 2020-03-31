@@ -1,0 +1,7 @@
+gcc -Wall -pedantic -o program_c program.c modul.c
+g++ -Wall -pedantic -o program_cpp program.cpp modul.c
+/**
+w C dopuszcza sie deklaracje funkcji bez podania jakie argumenty przyjmuje,
+z automatu przyjmuje sie, ze sa typu int
+w C++ to jest niedopuszczalne
+**/
